@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  margin: 5rem auto;
+  width: 30%;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.container div {
+  height: calc(30vw / 16);
+}
