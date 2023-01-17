@@ -11,8 +11,11 @@
   margin: 5rem auto;
   width: 30%;
   grid-template-columns: repeat(16, 1fr);
+  border: 1px solid black;
 }
 
 .container div {
   height: calc(30vw / 16);
+  -webkit-user-drag: none;
+  user-select: none;
 }
